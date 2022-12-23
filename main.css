@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('http://fonts.cdnfonts.com/css/who-is-hot');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+  /* background-image: url("media/Cheese-Pizza-130396-pixahive.jpg") ; */
+  background-color: #fff4f4;
+  background-repeat: repeat;
+  background-size: cover;
+  /* font-family:'Neue-Helvetica'; */
+  backdrop-filter: blur(7px);
+}
+video{
+  
+}
+
+/* body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    text-transform:uppercase;
+background-image: url("media/Cheese-Pizza-130396-pixahive.jpg") ;
+background-repeat:repeat;
+background-size: cover;
+font-family:'Neue-Helvetica';
+backdrop-filter: blur(7px);
+} */
+#navv {
+  font-weight: bold;
+  background-color: transparent !important;
+}
+.nav-item:hover {
+  transform: scale(1.08);
+  transition: all ease-in 0.3s;
+}
+
+.carousel-caption button{
+  background-color: #dc3545;
+  color: white;
+  font-weight: bolder;
+}
+
+#card-box {
+  justify-content: space-around;
+}
+
+.card {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all ease 0.5s;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+
+/*Footer Section*/
+.footer-danger {
+  padding: 50px 0;
+  color: #f0f9ff;
+}
+
+.footer-danger h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-danger ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-danger ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-danger ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width:767px) {
+  .footer-danger .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-danger .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+  .footer-danger .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-danger .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-danger .item.social {
+  text-align: center;
+}
+
+@media (max-width:991px) {
+  .footer-danger .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-danger .item.social>a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-danger .item.social>a:hover {
+  opacity: 0.9;
+}
+
+.footer-danger .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
