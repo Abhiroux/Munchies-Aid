@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('http://fonts.cdnfonts.com/css/who-is-hot');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+
+body {
+    text-transform: none;
+    font-family: 'who-is-hot', sans-serif;
+}
+
+.j1 {
+
+    background: url('media/banner-3_edited.jpg') no-repeat center center/cover;
+    background-blend-mode: soft-light;
+    border-radius: 0px;
+}
+
+.partnerMunchies {
+    font-family: 'who-is-hot', sans-serif;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 1rem;
+}
+
+.j2 {
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 40px 0px 40px 0px;
+    font-family: 'who-is-hot', sans-serif;
+    margin-top: -60px;
+}
+
+.cardType1 {
+    transition: none !important;
+}
+
+.box {
+    font-size: 1.3rem;
+}
+
+.section1 {
+    /* background: url('media/how-it-works.jpg') ; */
+}
+
+.box2 {
+    font-family: 'who-is-hot', sans-serif;
+    margin-top: 60px;
+}
+
+.Heading1 {
+    color: black;
+    margin-top: 0px;
+}
+
+.j3 {
+    text-align: center;
+    background-color: #eff1f2;
+    font-family: 'who-is-hot', sans-serif;
+}
+
+.restroSearch {
+    padding: 20px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    /* margin-top:  45px; */
+    margin: auto;
+
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    border: 1px solid #121212;
+  }
+
+  .card{
+    height: 420px;
+  }
+  .card:hover{
+    transform: none;
+  }
+  
